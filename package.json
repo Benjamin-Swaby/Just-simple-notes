@@ -1,0 +1,26 @@
+{
+  "name": "revision-software",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin-swaby/revision-software.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjamin-swaby/revision-software/issues"
+  },
+  "homepage": "https://github.com/benjamin-swaby/revision-software#readme",
+  "devDependencies": {
+    "electron": "^9.1.1"
+  },
+  "dependencies": {
+    "dialogs": "^2.0.1"
+  }
+}

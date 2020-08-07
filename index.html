@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSnotes</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+    <script src="funcs.js"></script>
+
+    <style>
+        .footer {
+            position: fixed;
+            text-align: center;
+            bottom: 0px;
+            width: 100%;
+
+        }
+
+        .center {
+            position: fixed;
+            text-align: center;
+            width: 100%;
+        }
+
+        .centerLow {
+            position: fixed;
+            text-align: center;
+            width: 100%;
+
+        }
+
+        .small-btn {
+            width: 50px;
+            height: 25px;
+        }
+
+        .medium-btn {
+            width: 70px;
+            height: 30px;
+        }
+
+        .big-btn {
+            width: 90px;
+            height: 40px;
+        }
+
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: teal;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="fileName">load or add a notebook</h1>
+        <p id="lastAdded"></p>
+    </div>
+
+    <div id = "control" class = "center">
+    </div>
+
+
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="center" id="textFields">
+        <p style="visibility: hidden;">hidden</p>
+    </div>
+
+    <div class="footer">
+        <button class="big-btn" onclick="create()">new</button>
+        <button class="big-btn" onclick="save()">save</button>
+        <button class="big-btn" onclick="load()">load</button>
+        
+    </div>
+
+</body>
+
+</html>
